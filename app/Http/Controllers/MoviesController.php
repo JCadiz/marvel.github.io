@@ -66,7 +66,7 @@ class MoviesController extends Controller
         ]);
 
         //return redirect('/users');
-        return redirect()->route('admin.movies.index')->with('success', 'Movie Create');
+        return redirect()->route('movies2')->with('success', 'Movie Create');
     }
 
     /**
@@ -77,7 +77,7 @@ class MoviesController extends Controller
      */
     public function show($id)
     {
-        $Movie =  Movies::find($id);
+        $movie =  Movies::find($id);
         return view('admin.movies.show', compact('movie'));
     }
 
@@ -123,7 +123,7 @@ class MoviesController extends Controller
             'rating' => $request->input('rating')
         ]);
 
-         return redirect()->route('movies')->with('success', 'Movie Update');
+         return redirect()->route('movies2')->with('success', 'Movie Update');
     }
 
     /**
@@ -137,10 +137,10 @@ class MoviesController extends Controller
          try {
             Movies::destroy($id);
         }catch(Exception $e){
-            return redirect()->route('movies')->with('warning', 'Can be delete a movie ' . $id);
+            return redirect()->route('movies2')->with('warning', 'Can be delete a movie ' . $id);
         }
         //$user =  User::find($id);
         //$user->delete();
-        return redirect()->route('movies')->with('success', 'Movie Delete');
+        return redirect()->route('movies2')->with('success', 'Movie Delete');
     }
 }

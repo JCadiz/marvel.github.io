@@ -37,7 +37,6 @@
                     <th>#</th>
                     <th>Name</th>
                     <th>Details</th>
-
                     <th>Actor</th>
                     <th>Create</th>
                     <th>Edit</th>
@@ -49,7 +48,6 @@
                     <th>#</th>
                     <th>Name</th>
                     <th>Details</th>
-
                     <th>Actor</th>
                     <th>Create</th>
                     <th>Edit</th>
@@ -59,13 +57,13 @@
             <tbody>
             @foreach($personajes as $personaje)
                 <tr>
-                    <td>{{ $personaje->id }}</td>
+                    <td><a href="{{ route('personajes.show', $personaje->id) }}" class="btn btn-info">{{ $personaje->id }}</a></td>
                     <td>{{ $personaje->nombre }}</td>
                     <td>{{ $personaje->details }}</td>
                     <td>{{ $personaje->actor }}</td>
-                    <td><a href="{{ route('personajes.create') }}">Create</a></td>
-                    <td><a href="{{ route('personajes.edit', $personaje->id) }}">Edit</a></td>
-                    <td><a href="{{ route('personajes.destroy', $personaje->id) }}"
+                    <td><a href="{{ route('personajes.create') }}" class="btn btn-success">Create</a></td>
+                    <td><a href="{{ route('personajes.edit', $personaje->id) }}" class="btn btn-warning">Edit</a></td>
+                    <td><a href="{{ route('personajes.destroy', $personaje->id) }}" class="btn btn-danger"
                         onclick="event.preventDefault();
                         document.getElementById('form-delete-{{$personaje->id}}').submit();">Delete</a>
                         <form id="form-delete-{{$personaje->id}}" method="post" action="{{ route('personajes.destroy', $personaje->id) }}">

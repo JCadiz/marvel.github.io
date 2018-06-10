@@ -73,6 +73,10 @@
                                                     {{ Auth::user()->name }} <span class="caret"></span>
                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                    <a class="nav-link" href="{{ route('movies2') }}">Admin Movies</a>
+                                                    <a class="nav-link" href="{{ route('personajes2') }}">Admin Character</a>
+                                                    <a class="nav-link" href="{{ route('series2') }}">Admin Serie</a>
+                                                    <a class="nav-link" href="{{ route('prueba2') }}">Admin Shop</a>
                                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                                     onclick="event.preventDefault();
                                                                     document.getElementById('logout-form').submit();">

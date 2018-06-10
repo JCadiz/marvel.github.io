@@ -37,7 +37,6 @@
                     <th>#</th>
                     <th>Title</th>
                     <th>Description</th>
-                    <th>Image</th>
                     <th>Director</th>
                     <th>Release Date</th>
                     <th>Create</th>
@@ -50,7 +49,6 @@
                     <th>#</th>
                     <th>Title</th>
                     <th>Description</th>
-                    <th>Image</th>
                     <th>Director</th>
                     <th>Release Date</th>
                     <th>Create</th>
@@ -61,15 +59,14 @@
             <tbody>
             @foreach($movies as $movie)
                 <tr>
-                    <td>{{ $movie->id }}</td>
+                    <td><a href="{{ route('movies.show', $movie->id) }}" class="btn btn-info">{{ $movie->id }}</a></td>
                     <td>{{ $movie->title }}</td>
                     <td>{{ $movie->descripcion }}</td>
-                    <td>{{ $movie->image }}</td>
                     <td>{{ $movie->director }}</td>
                     <td>{{ $movie->releaseDate }}</td>
-                    <td><a href="{{ route('movies.create') }}">Create</a></td>
-                    <td><a href="{{ route('movies.edit', $movie->id) }}">Edit</a></td>
-                    <td><a href="{{ route('movies.destroy', $movie->id) }}"
+                    <td><a href="{{ route('movies.create') }}" class="btn btn-success">Create</a></td>
+                    <td><a href="{{ route('movies.edit', $movie->id) }}" class="btn btn-warning">Edit</a></td>
+                    <td><a href="{{ route('movies.destroy', $movie->id) }}" class="btn btn-danger"
                         onclick="event.preventDefault();
                         document.getElementById('form-delete-{{$movie->id}}').submit();">Delete</a>
                         <form id="form-delete-{{$movie->id}}" method="post" action="{{ route('movies.destroy', $movie->id) }}">

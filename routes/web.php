@@ -22,6 +22,17 @@ Auth::routes();
 Route::prefix('admin')->group(function () {
     Route::get('/home', 'HomeController@index')->name('admin.home');
 
+    Route::resource('prueba', 'PruebaController')->names([
+        'index' => 'prueba2',
+        'create' => 'prueba.create',
+        'store' => 'prueba.store',
+        'show' => 'prueba.show',
+        'edit' => 'prueba.edit',
+        'update' => 'prueba.update',
+        'destroy' => 'prueba.destroy'
+    ]);
+
+
     Route::resource('personajes', 'PersonajesController')->names([
         'index' => 'personajes2',
         'create' => 'personajes.create',

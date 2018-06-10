@@ -70,7 +70,7 @@ class SeriesController extends Controller
     public function show($id)
     {
         $serie = Series::find($id);
-        return view('admin.series.show', compact('series'));
+        return view('admin.series.show', compact('serie'));
     }
 
     /**

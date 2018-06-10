@@ -9,6 +9,12 @@ use App\Prueba;
 
 class PruebaController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -16,7 +22,8 @@ class PruebaController extends Controller
      */
     public function index()
     {
-        //
+        $pruebas = Prueba::paginate(6);
+        return view('admin.prueba.index', compact('pruebas'));
     }
 
     /**
@@ -26,7 +33,8 @@ class PruebaController extends Controller
      */
     public function create()
     {
-        //
+        $prueba = new Prueba();
+        return view('admin.prueba.create', compact('prueba'));
     }
 
     /**
@@ -37,7 +45,22 @@ class PruebaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'producto' => 'required',
+            'descripcion' => 'required',
+            'imagen' => 'required',
+            'precio' => 'required'
+        ]);
+
+        Prueba::create([
+            'producto' => $request->input('producto'),
+            'descripcion' => $request->input('descripcion'),
+            'imagen' => $request->input('imagen'),
+            'precio' => $request->input('precio')
+        ]);
+
+        //return redirect('/users');
+        return redirect()->route('prueba2')->with('success', 'Item Created');
     }
 
     /**
@@ -48,7 +71,8 @@ class PruebaController extends Controller
      */
     public function show($id)
     {
-        //
+        $prueba = Prueba::find($id);
+        return view('admin.prueba.show', compact('prueba'));
     }
 
     /**
@@ -59,7 +83,8 @@ class PruebaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $prueba = Prueba::find($id);
+        return view('admin.prueba.edit', compact('prueba'));
     }
 
     /**
@@ -71,7 +96,24 @@ class PruebaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'producto' => 'required',
+            'descripcion' => 'required',
+            'imagen' => 'required',
+            'precio' => 'required'
+        ]);
+
+        $prueba = Prueba::find($id);
+
+        $prueba->update([
+            'producto' => $request->input('producto'),
+            'descripcion' => $request->input('descripcion'),
+            'imagen' => $request->input('imagen'),
+            'precio' => $request->input('precio')
+        ]);
+
+        //return redirect('/users');
+        return redirect()->route('prueba2')->with('success', 'Item Modify');
     }
 
     /**
@@ -82,6 +124,13 @@ class PruebaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        try {
+            Prueba::destroy($id);
+        } catch (Exception $e) {
+            return redirect()->route('prueba2')->with('warning', 'Can be delete a Item ' . $id);
+        }
+        //$user =  User::find($id);
+        //$user->delete();
+        return redirect()->route('prueba2')->with('success', 'Item Delete');
     }
 }

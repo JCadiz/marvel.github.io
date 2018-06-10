@@ -48,17 +48,18 @@
                                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 {{ Auth::user()->name }}
                                                 </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <a class="nav-link" href="{{ route('movies2') }}">Admin Movies</a>
                                                 <a class="nav-link" href="{{ route('personajes2') }}">Admin Character</a>
                                                 <a class="nav-link" href="{{ route('series2') }}">Admin Serie</a>
+                                                <a class="nav-link" href="{{ route('prueba2') }}">Admin Shop</a>
                                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                                     onclick="event.preventDefault();document.getElementById('logout').submit();">
                                                     Logout</a>
                                                 <form action="{{ route('logout') }}" id="logout" method="post">
                                                     {!! csrf_field() !!}
                                                 </form>
-                                            </div>
+                                                </div>
                                             </li>
                                          @endguest
                                         </ul>

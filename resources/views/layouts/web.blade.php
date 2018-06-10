@@ -21,6 +21,7 @@
     <!-- Responsive CSS -->
     <link href="{{ asset('css/responsive.css')}} " rel="stylesheet">
     <link href="{{ asset('css/style.css ') }}" rel="stylesheet">
+
 </head>
 
 <body onclick="detenerG()">

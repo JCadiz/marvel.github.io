@@ -15,8 +15,8 @@ Route::get('/movies', 'FrontController@movies')->name('movies');
 Route::get('/personajes', 'FrontController@personajes')->name('personajes');
 Route::get('/series', 'FrontController@series')->name('series');
 Route::get('/prueba', 'FrontController@prueba')->name('prueba');
-
-
+Route::get('/contact', 'FrontController@contact')->name('contact');
+Route::get('/about', 'FrontController@about')->name('about');
 
 Auth::routes();
 Route::prefix('admin')->group(function () {
@@ -31,7 +31,6 @@ Route::prefix('admin')->group(function () {
         'update' => 'prueba.update',
         'destroy' => 'prueba.destroy'
     ]);
-
 
     Route::resource('personajes', 'PersonajesController')->names([
         'index' => 'personajes2',
@@ -63,3 +62,6 @@ Route::prefix('admin')->group(function () {
         'destroy' => 'series.destroy'
     ]);
 });
+
+Route::post('email', 'FrontController@send')->name('send.email');
+

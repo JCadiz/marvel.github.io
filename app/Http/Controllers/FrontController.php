@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Mail\OrderShipped;
+use Mail;
+use App\Mail\MailContact;
 use Illuminate\Http\Request;
 use Exception;
 use App\Movies;
@@ -41,5 +43,18 @@ class FrontController extends Controller
     public function prueba(){
         $test = Prueba::orderBy('id', 'ASC')->paginate(6);
         return view('web.pruebas', compact('test'));
+    }
+
+    public function contact(){
+        return view('web.contact');
+    }
+
+    public function about(){
+        return view('web.about');
+    }
+
+    public function send(Request $request){
+        Mail::to('jesuscadiz22@gmail.com', "Admin")->send(new MailContact($request));
+        return redirect()->route('contact')->with("status", "Email Send");
     }
 }

@@ -27,7 +27,6 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-
 @endif
 
     @if($movies->count() > 0)

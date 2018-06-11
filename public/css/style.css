@@ -1,3 +1,8 @@
 .margen {
     margin-left: 20em;
 }
+
+.boton {
+    color: white;
+    background-color: rgb(83, 79, 79);
+}

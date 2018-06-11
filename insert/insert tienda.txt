@@ -1,0 +1,72 @@
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Spider Man Unisex Hoodie',
+	'Pre-Shrunk 2-Way Stretch 100% Premium Microfiber Polyester.  Incredibly strong and durable. Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable and easy to care..   Cool 360 Design.  High-definition sublimation printing technique covers the entire garment.  This is a Unisex fitted hoodie.  Sizes are in US sizing.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'sweater1.jpg',
+	'55'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Loki Unisex Hoodie',
+	'Pre-Shrunk 2-Way Stretch 100% Premium Microfiber Polyester.  Incredibly strong and durable. Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable and easy to care.  Cool 360 Design.  High-definition sublimation printing technique covers the entire garment.  This is a Unisex fitted hoodie.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto4.jpg',
+	'57'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'No BS Bundle III',
+	'Handmade to perfection.  Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable.  Easy to care.  High-definition sublimation printing technique.  This is a Unisex fitted T-Shirt.  For a proper fit we recommend going 2 size up.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto1.jpg',
+	'60'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Caught In A Web Bundle III',
+	'Handmade to perfection.  Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable.  Easy to care.  High-definition sublimation printing technique.  This is a Unisex fitted T-Shirt.  For a proper fit we recommend going 2 size up.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto2.jpg',
+	'70'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'The King's Necklace',
+	'Inspired by T'Challa's Black Panther suit. Handmade.  Necklace Comes in Black Leather Cord Chain.  Great Collectible or Gift for any Occasion.  Material: High-Quality Zinc Alloy.',
+	'producto3.jpg',
+	'50'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Double Trouble Bundle',
+	'Pre-Shrunk 2-Way Stretch 100% Premium Microfiber Polyester.  Incredibly strong and durable. Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable and easy to care.  Cool 360 Design.  High-definition sublimation printing technique covers the entire garment.  This is a Unisex fitted hoodie and leggings.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto5.jpg',
+	'55'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Destroyer of Worlds Unisex Hoodie',
+	'Pre-Shrunk 2-Way Stretch 100% Premium Microfiber Polyeste. Incredibly strong and durable. Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable and easy to care.  Cool 360 Design.  High-definition sublimation printing technique covers the entire garment.  This is a Unisex fitted hoodie.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto6.jpg',
+	'56'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Avengers Symbol Unisex T-Shirt',
+	'Handmade to perfection.  Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable.  Easy to care.  High-definition sublimation printing technique.  This is a Unisex fitted T-Shirt.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto8.jpg',
+	'65'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Tony Unisex Hoodie',
+	'Pre-Shrunk 2-Way Stretch 100% Premium Microfiber Polyester.  Incredibly strong and durable. Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable and easy to care.  Cool 360 Design.  High-definition sublimation printing technique covers the entire garment.  This is a Unisex fitted hoodie.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto7.jpg',
+	'67'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Merc Beddings Set',
+	'Bedding set comes with one duvet cover + two pillowcases.  Single beds such as twin have only 1 pillow cover.  Our Unique Duvet Set, named Duna, Quilt will brighten up any bedroom!.  Features a single sided full 3D color print on a luxurious brushed polyester fabric.  Constructed with cozy yet lightweight premium material that are soft to touch.  Tied down corners to ensure secure placement of comforter.  Machine Washable w cold water gentle cycle & mid detergent.',
+	'producto9.jpg',
+	'45'
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Avengers Symbol Phone Case',
+	'High-Quality 3D Print.  Reinforced quality hooded cover for extra protection.  Super Luxury, Premium & Rich Look!.  All model comes with 1 Year Usage Guarantee for Print Quality.  Tight fitted protection for all suited smartphones !.',
+	'producto10.jpg',
+	49''
+);
+insert into prueba(producto,descripcion,imagen,precio) values(
+	'Doctor Strange Jacket',
+	'Handmade to perfection.  Pre-Shrunk 2-Way Stretch 100% Premium Microfiber Polyester.  Incredibly strong and durable. Resistant to wrinkles, shrinking, abrasion & mildew.  Machine washable.  High-definition sublimation printing technique covers the entire garment.  Our apparels are all Hand-Made. hence, please allow a 5% tolerance in terms of color brightness (on-off screen) as well as sewing alignment.',
+	'producto11.jpg',
+	'35'
+);

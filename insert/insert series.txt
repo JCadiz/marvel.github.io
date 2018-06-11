@@ -1,0 +1,36 @@
+insert into series(title,descripcion,imagen,rating)values(
+	'Agents of S.H.I.E.L.D.',
+	' Agents of S.H.I.E.L.D., which is based on the Marvel Comics organization S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division), revolves around the character of Phil Coulson and his team of S.H.I.E.L.D. agents, who are assigned to several dangerous cases. The cases are centered on Project Centipede and its leader, The Clairvoyant, while Coulson also searches for answers concerning his mysterious resurrection after dying in The Avengers. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the films of the franchise, and was produced by ABC Studios, Marvel Television, and Mutant Enemy Productions. Jed Whedon, Maurissa Tancharoen, and Jeffrey Bell served as showrunners.',
+	'agentofshield.jpg',
+	'7.5'
+);
+insert into series(title,descripcion,imagen,rating)values(
+	'Jessica Jones',
+	' Is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer Brian Michael Bendis and artist Michael Gaydos, and first appeared in Alias #1 (November 2001), as part of Marvels Max, an imprint for more mature content. Within the context of Marvels shared universe, Jones is a former superhero who becomes the owner and sole employee of Alias Private Investigations. Bendis originally envisioned the series centered on Jessica Drew and only decided to create Jones once he noticed that the main character had a distinct voice and background that differentiated her from Drew.',
+	'jessica.jpg',
+	'8.1'
+);
+insert into series(title,descripcion,imagen,rating)values(
+	'Legion',
+	'David Haller is a troubled young man who was diagnosed with schizophrenia as a child. Shuffled from one psychiatric institution to the next, in his early 30s, David met and fell in love with a beautiful and troubled fellow patient named Syd. After a startling encounter with her, he was forced to confront the shocking possibility that the voices he hears and the visions he sees may actually be real. Syd led David to Melanie Bird, a demanding but nurturing therapist who heads a team of specialists -- Ptonomy, Kerry, and Cary -- each of whom possesses a unique and extraordinary gift. Together, they helped David to recognize and harness his hidden abilities and unlock a deeply suppressed truth -- he had been haunted his entire life by a malicious parasite of unimaginable power.',
+	'legion.jpg',
+	'8.4'
+);
+insert into series(title,descripcion,imagen,rating)values(
+	'Luke Cage',
+	'This gritty, action-packed drama follows the evolution of Luke Cage (Mike Colter), a man with super strength and unbreakable skin caused by a sabotaged experiment. After a failed relationship with fellow superhero Jessica Jones, Cage tries to rebuild a quiet life in Harlem, New York --until he is pulled out of the shadows and forced into a battle for his city. Along the way, Cage cannot avoid confronting his past, which he has worked hard to bury. "Marvels Luke Cage" is the third show in the Netflix-original Defenders series.',
+	'lukecage.jpg',
+	'7.5'
+);
+insert into series(title,descripcion,imagen,rating)values(
+	'Gifted.',
+	'Frank Adler (Chris Evans) is a single man raising a child prodigy - his spirited young niece Mary (Mckenna Grace) - in a coastal town in Florida. Franks plans for a normal school life for Mary are foiled when the 7-year-olds mathematical abilities come to the attention of Frank's formidable mother, Evelyn (Lindsay Duncan), whose plans for her granddaughter threaten to separate Frank and Mary.',
+	'gifted.jpg',
+	'7.6'
+);
+insert into series(title,descripcion,imagen,rating)values(
+	'Cloak & Dagger',
+	'is an upcoming American cable television series created for Freeform by Joe Pokaski, based on the Marvel Comics characters of the same name. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the films and other television series of the franchise. The series is produced by ABC Signature Studios and Marvel Television, with Pokaski serving as showrunner. The series stars Olivia Holt and Aubrey Joseph as Tandy Bowen / Dagger and Tyrone Johnson / Cloak, two teenagers who acquire superpowers and form a romantic relationship.',
+	'cloakdagger.jpg',
+	'5.6'
+);

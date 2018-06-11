@@ -1,0 +1,152 @@
+insert into movies(title, descripcion,imagen,director,releaseDate,rating) values(
+	'Iron Man',
+	'Tony Stark. Genius, billionaire, playboy, philanthropist. Son of legendary inventor and weapons contractor Howard Stark. When Tony Stark is assigned to give a weapons presentation to an Iraqi unit led by Lt. Col. James Rhodes, he is given a ride on enemy lines. That ride ends badly when Starks Humvee that he is riding in is attacked by enemy combatants. He survives - barely - with a chest full of shrapnel and a car battery attached to his heart. In order to survive he comes up with a way to miniaturize the battery and figures out that the battery can power something else. Thus Iron Man is born. He uses the primitive device to escape from the cave in Iraq. Once back home, he then begins work on perfecting the Iron Man suit. But the man who was put in charge of Stark Industries has plans of his own to take over Tonys technology for other matters.',
+	'ironman1.jpg',
+	'Jon Favreau',
+	' 2 May 2008',
+	'7.9'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Iron Man 2',
+	'With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press, and the public to share his technology with the military. Unwilling to let go of his invention, Stark, along with Pepper Potts, and James "Rhodey" Rhodes at his side, must forge new alliances - and confront powerful enemies.',
+	'ironman2.jpg',
+	'Jon Favreau',
+	'7 May 2010',
+	'7.0'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Iron Man 3',
+	'Marvels "Iron Man 3" pits brash-but-brilliant industrialist Tony Stark/Iron Man against an enemy whose reach knows no bounds. When Stark finds his personal world destroyed at his enemys hands, he embarks on a harrowing quest to find those responsible. This journey, at every turn, will test his mettle. With his back against the wall, Stark is left to survive by his own devices, relying on his ingenuity and instincts to protect those closest to him. As he fights his way back, Stark discovers the answer to the question that has secretly haunted him: does the man make the suit or does the suit make the man?.',
+	'ironman3.jpg',
+	'Shane Black',
+	'3 May 2013',
+	'7.2'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Captain America: The First Avenger',
+	'it is 1942, America has entered World War II, and sickly but determined Steve Rogers is frustrated at being rejected yet again for military service. Everything changes when Dr. Erskine recruits him for the secret Project Rebirth. Proving his extraordinary courage, wits and conscience, Rogers undergoes the experiment and his weak body is suddenly enhanced into the maximum human potential. When Dr. Erskine is then immediately assassinated by an agent of Nazi Germanys secret HYDRA research department (headed by Johann Schmidt, a.k.a. the Red Skull), Rogers is left as a unique man who is initially misused as a propaganda mascot; however, when his comrades need him, Rogers goes on a successful adventure that truly makes him Captain America, and his war against Schmidt begins.',
+	'capitanamerica1.jpg',
+	'Joe Johnston',
+	'22 July 2011',
+	'6.9'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Captain America: The Winter Soldier',
+	'For Steve Rogers, awakening after decades of suspended animation involves more than catching up on pop culture; it also means that this old school idealist must face a world of subtler threats and difficult moral complexities. That becomes clear when Director Nick Fury is killed by the mysterious assassin, the Winter Soldier, but not before warning Rogers that SHIELD has been subverted by its enemies. When Rogers acts on Furys warning to trust no one there, he is branded as a traitor by the organization. Now a fugitive, Captain America must get to the bottom of this deadly mystery with the help of the Black Widow and his new friend, The Falcon. However, the battle will be costly for the Sentinel of Liberty, with Rogers finding enemies where he least expects them while learning that the Winter Soldier looks disturbingly familiar.',
+	'capitanamerica2.jpg',
+	'Anthony Russo, Joe Russo',
+	'4 April 2014',
+	'7.8'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Captain America: Civil War',
+	'With many people fearing the actions of super heroes, the government decides to push for the Hero Registration Act, a law that limits a heros actions. This results in a division in The Avengers. Iron Man stands with this Act, claiming that their actions must be kept in check otherwise cities will continue to be destroyed, but Captain America feels that saving the world is daring enough and that they cannot rely on the government to protect the world. This escalates into an all-out war between Team Iron Man (Iron Man, Black Panther, Vision, Black Widow, War Machine, and Spider-Man) and Team Captain America (Captain America, Bucky Barnes, Falcon, Scarlet Witch, Hawkeye, and Ant Man) while a new villain emerges.',
+	'capitanamerica3.jpg',
+	'Anthony Russo, Joe Russo',
+	'6 May 2016',
+	'7.8'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Thor',
+	'The warrior Thor (Hemsworth) is cast out of the fantastic realm of Asgard by his father Odin (Hopkins) for his arrogance and sent to Earth to live among humans. Falling in love with scientist Jane Foster (Portman) teaches Thor much-needed lessons, and his new-found strength comes into play as a villain from his homeland sends dark forces toward Earth.',
+	'thor1.jpg',
+	'Kenneth Branagh',
+	'6 May 2011',
+	'7.0'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Thor: The Dark World',
+	'Thousands of years ago, a race of beings known as Dark Elves tried to send the universe into darkness by using a weapon known as the Aether. Warriors from Asgard stop them but their leader Malekith escapes to wait for another opportunity. The warriors find the Aether and since it cannot be destroyed, they try to hide it. In the present day, Jane Foster awaits the return of Thor although it has been two years since they last saw once another. In the meantime, Thor has been trying to bring peace to the nine realms. Jane discovers an anomaly similar to the one that brought Thor to Earth. She goes to investigate, finds a wormhole, and is sucked into it. Back on Asgard, Thor wishes to return to Earth but his father, Odin refuses to let him. Thor learns from Heimdall, who can see into all of the realms, that Jane disappeared. Thor then returns to Earth just as Jane reappears. However, when some policemen try to arrest her, an unknown energy repulses them.',
+	'thor2.jpg',
+	'Alan Taylor',
+	'8 November 2013',
+	'7.0'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Thor: Ragnarok',
+	'Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.',
+	'thor3.jpg',
+	'Taika Waititi',
+	'3 November 2017',
+	'7.9'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'The Incredible Hulk',
+	'Depicting the events after the Gamma Bomb. The Incredible Hulk tells the story of Dr Bruce Banner, who seeks a cure to his unique condition, which causes him to turn into a giant green monster under emotional stress. Whilst on the run from military which seeks his capture, Banner comes close to a cure. But all is lost when a new creature emerges; The Abomination.',
+	'hulk2.jpg',
+	'Louis Leterrier',
+	'13 June 2008',
+	'6.8'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Guardians of the Galaxy',
+	'After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the "Guardians of the Galaxy" to save the galaxy.',
+	'guardiansofgalaxy.jpg',
+	'James Gunn',
+	'1 August 2014',
+	'8.1'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Guardians of the Galaxy Vol. 2',
+	'After saving Xandar from Ronans wrath, the Guardians are now recognized as heroes. Now the team must help their leader Star Lord (Chris Pratt) uncover the truth behind his true heritage. Along the way, old foes turn to allies and betrayal is blooming. And the Guardians find that they are up against a devastating new menace who is out to rule the galaxy.',
+	'guardiansofgalaxy2.jpg',
+	'James Gunn',
+	'5 May 2017',
+	'7.7'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'The Avengers',
+	'Nick Fury is the director of S.H.I.E.L.D., an international peace-keeping agency. The agency is a who is who of Marvel Super Heroes, with Iron Man, The Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When global security is threatened by Loki and his cohorts, Nick Fury and his team will need all their powers to save the world from disaster which is formed by Loki and his team.',
+	'avengers1.jpg',
+	'Joss Whedon',
+	'4 May 2012',
+	'8.1'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Avengers: Age of Ultron',
+	'Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earths mightiest heroes must come together once again to protect the world from global extinction.',
+	'avengers2.jpg',
+	'Joss Whedon',
+	'1 May 2015',
+	'7.4'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Avengers: Infinity War',
+	'As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain',
+	'avengers3.jpg',
+	'Anthony Russo, Joe Russo',
+	'27 April 2018',
+	'8.8'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Doctor Strange',
+	'Marvels "Doctor Strange" follows the story of the talented neurosurgeon Doctor Stephen Strange who, after a tragic car accident, must put ego aside and learn the secrets of a hidden world of mysticism and alternate dimensions. Based in New York Citys Greenwich Village, Doctor Strange must act as an intermediary between the real world and what lies beyond, utilising a vast array of metaphysical abilities and artifacts to protect the Marvel Cinematic Universe.',
+	'doctorstrange.jpg',
+	'Scott Derrickson',
+	'4 November 2016',
+	'7.5'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Spider-Man: Homecoming',
+	'Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May, under the watchful eye of his new mentor Tony Stark, Peter tries to fall back into his normal daily routine - distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man - but when the Vulture emerges as a new villain, everything that Peter holds most important will be threatened.',
+	'spiderman.jpg',
+	'Jon Watts',
+	'7 July 2017',
+	'7.5'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Black Panther',
+	'After the events of Captain America: Civil War, King TChalla returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his countrys new leader. However, TChalla soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.',
+	'blackpanter1.jpg',
+	'Ryan Coogler',
+	'16 February 2018',
+	'7.5'
+);
+insert into movies(title, descripcion,imagen,director,releaseDate,rating)values(
+	'Ant-Man',
+	'Armed with the astonishing ability to shrink in scale but increase in strength, con-man Scott Lang must embrace his inner-hero and help his mentor, Dr. Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.',
+	'antman1.jpg',
+	'Peyton Reed',
+	'17 July 2015',
+	'7.3'
+);

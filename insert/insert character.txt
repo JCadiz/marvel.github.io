@@ -1,0 +1,138 @@
+insert into personajes(nombre,details,imagen,actor)values(
+	'Iron Man/ Tony Stark',
+	'Anthony "Tony" Stark was born to Howard Anthony Stark and Maria Collins Carbonell Stark, owners of the prominent US firm, Stark Industries. As a boy, Tony was fascinated with building and controlling machines. At the age of 15 Tony entered the undergraduate electrical engineering program at the Massachusetts Institute of Technology (MIT), and graduated with two master’s degrees by age 19. Tony went to work for Stark Industries, but showed more interest in living a reckless playboy lifestyle than using his engineering skills. At the age of 21, Tony inherited Stark Enterprises when his parents were killed in a car accident secretly orchestrated by rival corporation Republic Oil (later ROXXON). Still lacking in business acumen, Tony promoted secretary Virginia "Pepper" Potts to be his executive assistant and left the majority of his workload on her so that he could avoid what he saw as a burden',
+	'ironman.jpg',
+	'Robert Downey Jr.'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Captain America/ Steve Rogers',
+	'The character wears a costume bearing an American flag motif, and he utilizes a nearly indestructible shield which he throws as a projectile. Captain America is the alter ego of Steve Rogers, a frail young man enhanced to the peak of human perfection by an experimental serum to aid the United States governments efforts in World War II. Near the end of the war, he was trapped in ice and survived in suspended animation until he was revived in the present day. Although Captain America often struggles to maintain his ideals as a man out of his time with its modern realities, he remains a highly respected figure in his community which includes becoming the long-time leader of the Avengers.',
+	'capitan.jpg',
+	'Chris Evans'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Thor',
+	'Thor Odinson is the current king of Asgard, a founding member of the Avengers, and the God of Thunder. When his irresponsible behavior restarted a conflict between Asgard and Jotunheim, Thor was denied the right to become King, stripped of his power, and banished by his father Odin to Earth. While exiled on Earth, Thor learned humility, finding love with Jane Foster, and helping to save his new friends from a destructive threat sent by his adoptive brother Loki. Due to his selfless act of sacrifice, Thor redeemed himself in his father's eyes and was granted his power once more, which he then used to defeat Lokis schemes of genocide.',
+	'thor.jpg',
+	'Chris Hemsworth'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Hulk/ Bruce Banner',
+	'Following his accidental exposure to gamma rays during the detonation of an experimental bomb, Banner is physically transformed into the Hulk when subjected to emotional stress, at or against his will, often leading to destructive rampages and conflicts that complicate Banners civilian life. The Hulks level of strength is normally conveyed as proportionate to his level of anger. Commonly portrayed as a raging savage, the Hulk has been represented with other personalities based on Banners fractured psyche, from a mindless, destructive force, to a brilliant warrior, or genius scientist in his own right. Despite both Hulk and Banners desire for solitude, the character has a large supporting cast, including Banners lover Betty Ross, his friend Rick Jones, his cousin She-Hulk, sons Hiro-Kala and Skaar, and his co-founders of the superhero team the Avengers. However, his uncontrollable power has brought him into conflict with his fellow heroes and others.',
+	'hulk.jpg',
+	'Mark Ruffalo'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Black Widow / Natasha Romanoff',
+	'is a fictional superhero appearing in American comic books published by Marvel Comics. Created by editor and plotter Stan Lee, scripter Don Rico, and artist Don Heck, the character debuted in Tales of Suspense #52 (April 1964). The character was introduced as a Russian spy, an antagonist of the superhero Iron Man. She later defected to the United States, becoming an agent of the fictional spy agency S.H.I.E.L.D., and a member of the superhero team the Avengers.',
+	'blackwidow.jpg',
+	'Scarlett Johansson'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Doctor Strange/ Stephen Stranges',
+	'Dr. Stephen Stranges (Benedict Cumberbatch) life changes after a car accident robs him of the use of his hands. When traditional medicine fails him, he looks for healing, and hope, in a mysterious enclave. He quickly learns that the enclave is at the front line of a battle against unseen dark forces bent on destroying reality. Before long, Strange is forced to choose between his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence.',
+	'drstrange.jpg',
+	'Benedict Cumberbatch'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Black Panther/ TChalla',
+	'After the death of his father, TChalla returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, TChallas mettle as king -- and as Black Panther -- gets tested when he's drawn into a conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people.',
+	'blackpanter.jpg',
+	'Chadwick Boseman'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Scarlet Witch/ Wanda Maximoff',
+	'Scarlet Witch is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby, first appearing in The X-Men #4 in the Silver Age of Comic Books.',
+	'scarlet.jpg',
+	'Elizabeth Olsen'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Vision',
+	'The Vision is a fictional superhero appearing in American comic books published by Marvel Comics, an android and a member of the Avengers who first appeared in The Avengers #57.',
+	'vision.jpg',
+	'Paul Bettany'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Spider-Man/ Peter Parker',
+	'Bitten by a radioactive spider, high school student Peter Parker gained the speed, strength and powers of a spider. Adopting the name Spider-Man, Peter hoped to start a career using his new abilities. Taught that with great power comes great responsibility, Spidey has vowed to use his powers to help people.',
+	'spiderman',
+	'Tom Holland'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Quicksilver/ Pietro Maximoff',
+	'Quicksilver is a fictional superhero appearing in American comic books published by Marvel Comics. The character first appeared in the comic book X-Men #4 and was created by Stan Lee and Jack Kirby.',
+	'speed.jpg',
+	'Aaron Taylor-Johnson'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Star Lord/ Peter Quill',
+	'Refusing to miss his opportunity, Peter Jason Quill stole a scoutship from Cape Canaveral, returned to Eve, and shot his way to the appointed spot, where his old rival Harrelson, NASAs choice to be Star-Lord, was awaiting selection, where Quill was transported away in his stead, and transformed into Star-Lord.',
+	'starlord.jpg',
+	'Chris Pratt'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Falcon /Sam Wilson',
+	'With a mental connection to all birds and a suit that gives him wings to fly, The Falcon has been both the partner to Captain America and an Avenger himself. Whether as a super hero or in his secret identity of social worker Sam Wilson, The Falcon dedicates his life to standing up for others.',
+	'falcon.jpg',
+	'Anthony Mackie'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Gamora',
+	'The last of the Zen-Whoberi race, Gamora was adopted by the villainous Thanos and raised as an assassin. Gamora turned on her adopted father and now uses her abilities to help those who cannot help themselves. A veteran of the Annihilation Wave, Gamora now travels with the Guardians of the Galaxy and is known as the Most Dangerous Woman in the Universe.',
+	'gamora.jpg',
+	'Zoe Saldana'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Nebula',
+	'A fierce and deadly pirate feared throughout the galaxy for her crimes, Nebula claims to be the granddaughter of Thanos. Nebulaâ€™s path of chaos and terror has led to clashes with various heroes such as Nova, Spider-Man, and the Avengers',
+	'nebula.jpg',
+	'Karen Gillan'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Okoye',
+	'is a fictional character, a member of the Dora Milaje in Marvel Comics. The character, created by Christopher Priest and Mark Texeira, first appeared in Black Panther #1 (November 1998) within the comics. She appears more prominently in the Marvel Cinematic Universe.',
+	'general.jpg',
+	'Danai Gurira'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Loki Laufeyson',
+	'Loki possesses physical abilities far superior to humans, an increased lifespan, superhuman strength (able to lift up to 50 tons), immune to terrestrial diseases, and resistant to conventional injury.Loki is perhaps the most powerful sorcerer in all of Asgard. His many magical abilities included shape-shifting (able to gain the basic natural abilities inherent in each form), astral projection, molecular rearrangement, eldritch energy blasts, illusion casting, flight (via levitation), telepathy, hypnosis, and teleportation.',
+	'loki.jpg',
+	'Tom Hiddleston'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Mantis',
+	'The powers she adapted from the Cotati enabled her to communicate telepathically with plants, survive in space, and transfer herself (and her son) from plant life to plant life across interstellar distances or interdimensionally. Once reborn, she could fire powerful energy blasts, form energy fields, communicate directly with cosmic beings such as Eternity and Death (embodiment), Death, and gained complete control of her personal energies as well as her physical form.',
+	'mantis.jpg',
+	'Pom Klementieff'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Thanos',
+	'The Mad Titan Thanos, a melancholy, brooding individual, consumed with the concept of death, sought out personal power and increased strength, endowing himself with cybernetic implants until he became more powerful than any of his brethren.',
+	'thanos.jpg',
+	'Josh Brolin'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Winter soldier/ Bucky Barnes',
+	'He is an Olympic-class athlete and expectional acrobat highly skilled in both unarmed and armed hand-to-hand combat and extremely accurate marksman. he is fluent in four languages including German and Russian.',
+	'wintersoldier.jpg',
+	'Sebastian Stan'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'War Machine /Jim Rhodes',
+	'War Machine is a fictional superhero appearing in American comic books published by Marvel Comics. Jim Rhodes first appeared in Iron Man #118 by David Michelinie and John Byrne.',
+	'warmachine',
+	'Don Cheadle'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Rocket Raccoon',
+	'An expert marksman with a penchant for large weaponry, Rocket Raccoon is the last of his kind. After being captured by the Kree, Rocket teams up with Star-Lord and other adventurers to form the Guardians of the Galaxy. Together, they travel the galaxy and defend it from those who wish it harm.',
+	'rocket.jpg',
+	'Bradley Cooper'
+);
+insert into personajes(nombre,details,imagen,actor)values(
+	'Groot',
+	'The tree-like creature known as Groot was captured by the Kree and put on a team with Star-Lord, Bug, Mantis, and Rocket Raccoon. A tree of few words, Groot formed a bond with the creature known as Rocket Raccoon. Forming the Guardians of the Galaxy, Groot and his best friend Rocket travel through space getting into trouble wherever they go.',
+	'groot.jpg',
+	'Vin Diesel'
+);

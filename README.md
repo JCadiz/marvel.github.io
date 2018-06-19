@@ -9,3 +9,7 @@ ejecute php artisan config:clear luego php artisan view:clear y por ultimo php a
 para finalizar ejecute composer update.
 
 corra el proyecto con php artisan serve.
+
+lunes 18: atravez de el plugin de multiple-auth se hace mucho mas sencillo el login de multi usuario ya el proyecto carga las vistas para cada una de los posibles login y registro
+pero tengo que resolver la carga de datos a la BBDD con el orm de laravel 
+

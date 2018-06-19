@@ -7,8 +7,8 @@
         @endif
     </div>
     <div class="form-group col-md-6 @if($errors->has('imagen')) is-invalid @endif">
-        <label for="title" ><strong>Image</strong></label>
-        <input class="form-control" type="text" name="imagen" id="imagen" value="{{ $movie->imagen or old('descripcion') }}">
+        <label for="imagen" ><strong>Image</strong></label>
+        <input class="form-control" type="text" name="imagen" id="imagen" value="{{ old('imagen') }}">
         @if($errors->has('imagen'))
             <span>{{ $errors->first('imagen') }}</span>
         @endif
